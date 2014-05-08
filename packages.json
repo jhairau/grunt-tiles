@@ -1,0 +1,49 @@
+{
+  "name": "grunt-tiles",
+  "description": "A grunt task for generating image tiles from a set of images or svgs.",
+  "version": "0.3.4",
+  "homepage": "https://github.com/jhairau/grunt-tiles",
+  "author": "Johnathan Hair",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhairau/grunt-tiles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhairau/grunt-tiles/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jhairau/grunt-tiles/blob/master/LICENSE"
+  },
+  "keywords": [
+    "gruntplugin",
+    "map",
+    "tiles",
+    "ImageMagick"
+  ],
+  "files": [
+    "LICENSE",
+    "tasks"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.3.1"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
